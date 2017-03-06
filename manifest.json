@@ -1,0 +1,12 @@
+{
+  "name": "Vlla Screen Capture",
+  "version": "0.1",
+  "permissions": [
+    "desktopCapture"
+  ],
+  "background" : {
+    "scripts" : ["libvlla-lite.js", "capture.js"]
+  },
+  "browser_action":{},
+  "manifest_version": 2
+}
