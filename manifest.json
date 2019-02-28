@@ -1,12 +1,16 @@
 {
   "name": "Vlla Screen Capture",
-  "version": "0.1",
+  "description": "Stream your screen to the VLLA",
+  "version": "0.2",
   "permissions": [
-    "desktopCapture"
+    "desktopCapture",
+    "storage"
   ],
   "background" : {
-    "scripts" : ["libvlla-lite.js", "capture.js"]
+    "scripts" : ["background.js"]
   },
-  "browser_action":{},
+  "browser_action":{
+    "default_popup": "popup.html"
+  },
   "manifest_version": 2
 }
